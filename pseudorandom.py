@@ -2,11 +2,10 @@
 Author: github.com/Ariocodes
 This is a mini code showing how Pseudorandom generates random numbers.
 """
-###################################################################################################
 
 def pseudorandom():
     """
-    generates a random number from 0 to maximum amount which is 10 by default
+    Generates a random number from 0 to 10 using the Pseudo algorithm
     """
     from datetime import datetime
     now = datetime.now()
